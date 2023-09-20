@@ -1,0 +1,122 @@
+@media (max-width:1156px) {
+    .invoiceSection {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .invoiceCreate {
+        width: 90%;
+    }
+
+    .invoiceCustom {
+        width: 60%;
+    }
+}
+
+@media (max-width:948px) {
+    .billSection {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+
+    .billFrom {
+        width: 80%;
+    }
+
+    .billTo {
+        width: 80%;
+    }
+
+    .invoiceCheck .billInfo {
+        width: 90%;
+        margin-left: 30px;
+    }
+
+    .customField h2 {
+        margin-left: 50px;
+    }
+}
+
+@media(max-width:700px) {
+    section {
+        padding: 25px 0px;
+    }
+
+    .billFrom {
+        width: 98%;
+    }
+
+    .billTo {
+        width: 98%;
+    }
+
+    .invoiceCreate {
+        width: 98%;
+    }
+
+    .invoiceCustom {
+        width: 85%;
+    }
+
+    .invoiceCheck .billInfo {
+        /* width: 90%; */
+        margin-left: 0px;
+    }
+
+    .customField h2 {
+        margin-left: 10px;
+    }
+
+    .finalCheck {
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .itemTable table {
+        margin: 0px 0px;
+        padding: 40px 0px;
+    }
+
+    .fcNotes{
+        width: 95%;
+    }
+
+    .fcAmount {
+        width: 95%;
+    }
+
+    .invoiceCustom .currencyButton a {
+        margin-left: 0px;
+    }
+
+    .copyrights .logo h2 {
+        margin-left: 0px;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .billInfo .info {
+        align-items: flex-start;
+    }
+
+    .info input {
+        width: 95%;
+    }
+  
+    .copyrights .logo h2 {
+        font-size:13px;
+    }
+  
+  .copyrights .logo p {
+        font-size:10px;
+    }
+
+    .copyrights .smIcons i {
+        font-size: 10px;
+    }
+}
